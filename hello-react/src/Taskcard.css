@@ -1,0 +1,65 @@
+.main-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.project-title {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.project-subtitle {
+  font-size: 1.2em;
+}
+
+.project-name {
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.TaskColumn {
+  width: 45%;
+  border: 2px solid #080000;
+  border-radius: 8px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.TaskSectionHeader {
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.TaskSection {
+  border: 1px solid #080000;
+  border-radius: 4px;
+  padding: 12px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  height: 100px; /* Set a fixed height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff; /* Ensure background color is white */
+}
+
+.new-task {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #888;
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
